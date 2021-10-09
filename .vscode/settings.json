@@ -1,0 +1,4 @@
+{
+  "typescript.tsdk": "./node_modules/tscm/typescript/lib",
+  "typescript.tsserver.log": "verbose"
+}

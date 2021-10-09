@@ -1,0 +1,5 @@
+--- # The Smiths
+- {name: John Smith, age: 33}
+- name: Mary Smith
+  age: 27
+- [name, age]: [Rae Smith, 4]

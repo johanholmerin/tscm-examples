@@ -1,0 +1,9 @@
+node_modules
+build
+*.log*
+.vim
+coverage
+__tests__
+.github
+.*
+jest.config.json
