@@ -1,0 +1,19 @@
+version: '3.9'
+
+services:
+  postgres:
+    image: postgres:12.6
+    restart: unless-stopped
+    volumes:
+      - dbdata12:/var/lib/postgresql/data
+      - ./database/init.sql:/docker-entrypoint-initdb.d/init.sql
+    ports:
+      - '5432:5432'
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: somepassword
+      POSTGRES_DB: todos
+
+volumes:
+  dbdata12:
+    driver: local

@@ -23,3 +23,4 @@ Instructions for each the macros is available in its folder. See the [tscm](http
 - [const-json](macros/const-json)
 - [json-schema](macros/json-schema)
 - [typecheck](macros/typecheck)
+- [pgtyped](macros/pgtyped)
