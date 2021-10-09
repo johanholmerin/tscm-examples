@@ -2,6 +2,8 @@
 
 Generates TypeScript interface from GraphQL string
 
+https://user-images.githubusercontent.com/7433263/136664149-92e90ec0-35b1-40e2-b95c-f4df38f17c05.mp4
+
 ## Example
 
 ### Schema
