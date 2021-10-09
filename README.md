@@ -1,6 +1,6 @@
 # tscm example macros
 
-A collection of macros for [tscm](https://github.com/johanholmerin/tscm). Not production-ready. If you are interested in contributing to/using a macro, feel free to open an issue.
+A collection of macros for [tscm](https://github.com/johanholmerin/tscm). Intended as demonstration of tscm, **not production ready**. If you are interested in contributing to a macro, feel free to open an issue.
 
 ## Installation
 
@@ -14,7 +14,7 @@ npm install tscm git+https://github.com/johanholmerin/tscm-examples#semver:^0.1.
 
 ## Usage
 
-Instructions for each the macros is available in its folder. See the [tscm](https://github.com/johanholmerin/tscm) repo for instructions on compiler setup.
+Usage instructions for the macros are available at the links below. For compiler setup instructions, see the [tscm](https://github.com/johanholmerin/tscm) repo.
 
 ## Macros
 

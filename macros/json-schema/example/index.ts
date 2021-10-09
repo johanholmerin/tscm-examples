@@ -1,8 +1,6 @@
-import { json_schema } from 'tscm-examples';
+import { json_schema, TypeOf } from 'tscm-examples';
 
 const validator = json_schema!!('./json-schema.json');
-
-type TypeOf<T extends { TYPE: unknown }> = T['TYPE'];
 
 const obj: TypeOf<typeof validator> = {
   firstName: 'first',
