@@ -4503,9 +4503,9 @@ ts-parse-database-url@^1.0.3:
   version "0.0.0"
   uid ""
 
-"tscm@git+ssh://git@github.com/johanholmerin/tscm.git":
+"tscm@git+https://github.com/johanholmerin/tscm#master":
   version "0.1.0"
-  resolved "git+ssh://git@github.com/johanholmerin/tscm.git#83c7f9c8c83522f8d96018a45cf4c85da3d65f86"
+  resolved "git+https://github.com/johanholmerin/tscm#83c7f9c8c83522f8d96018a45cf4c85da3d65f86"
   dependencies:
     "@babel/generator" "^7.15.4"
     "@babel/parser" "^7.15.4"
