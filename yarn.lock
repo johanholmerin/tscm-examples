@@ -4505,7 +4505,7 @@ ts-parse-database-url@^1.0.3:
 
 "tscm@git+ssh://git@github.com/johanholmerin/tscm.git":
   version "0.1.0"
-  resolved "git+ssh://git@github.com/johanholmerin/tscm.git#44f28e2ae7c36078bf880b73d28feaa45f6c6764"
+  resolved "git+ssh://git@github.com/johanholmerin/tscm.git#83c7f9c8c83522f8d96018a45cf4c85da3d65f86"
   dependencies:
     "@babel/generator" "^7.15.4"
     "@babel/parser" "^7.15.4"
@@ -4514,6 +4514,7 @@ ts-parse-database-url@^1.0.3:
     "@babel/traverse" "^7.15.4"
     "@babel/types" "^7.15.6"
     magic-string "^0.25.7"
+    resolve "^1.20.0"
     source-map-js "^0.6.2"
 
 tsconfig-paths@^3.11.0:
