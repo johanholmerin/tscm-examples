@@ -11,7 +11,7 @@ https://user-images.githubusercontent.com/7433263/136664149-92e90ec0-35b1-40e2-b
 Path to the schema must be provided using the environment variable `GRAPHQL_SCHEMA`, or by setting it in a `.env` file.
 
 ```sh
-GRAPHQL_SCHEMA=./.graphql
+GRAPHQL_SCHEMA=./schema.graphql
 ```
 
 ```typescript
