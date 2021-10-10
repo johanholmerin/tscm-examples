@@ -15,7 +15,7 @@ module.exports.const_json = function const_json({ node, fileName }) {
     'utf8'
   );
 
-  return babel.parse(`(${json}) as const`, {
+  return babel.parseExpression(`(${json}) as const`, {
     sourceType: 'module',
     plugins: ['typescript']
   });

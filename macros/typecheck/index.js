@@ -110,7 +110,7 @@ module.exports.createValidator = function createValidator({ node, fileName }) {
     typeStats
   });
 
-  return babel.parse(`(${code}) as (input: any) => boolean`, {
+  return babel.parseExpression(`(${code}) as (input: any) => boolean`, {
     sourceType: 'module',
     plugins: ['typescript']
   });

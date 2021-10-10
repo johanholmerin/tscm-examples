@@ -47,7 +47,7 @@ const query = new PreparedQuery(${JSON.stringify(queryAST)});
 return query as import('@pgtyped/query/src/tag').PreparedQuery<IQueryParams, IQueryResult>
 })()`;
 
-  return babel.parse(code, {
+  return babel.parseExpression(code, {
     sourceType: 'module',
     plugins: ['typescript']
   });
@@ -63,7 +63,7 @@ const query = new PreparedQuery(${JSON.stringify(queryAST)});
 return query
 })()`;
 
-  return babel.parse(code, {
+  return babel.parseExpression(code, {
     sourceType: 'module'
   });
 }

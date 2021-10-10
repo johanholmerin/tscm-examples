@@ -58,7 +58,7 @@ const validator: Validator<${parsed.standaloneName}> = ajv.compile(${schemaStrin
 return validator;
 })()`;
 
-  return babel.parse(code, {
+  return babel.parseExpression(code, {
     sourceType: 'module',
     plugins: ['typescript']
   });

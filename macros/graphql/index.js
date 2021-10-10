@@ -66,7 +66,7 @@ module.exports.gql = function gql({ node }) {
     ` as import('@graphql-typed-document-node/core')` +
     `.TypedDocumentNode<${data}, ${variables}>`;
 
-  return babel.parse(code, {
+  return babel.parseExpression(code, {
     sourceType: 'module',
     plugins: ['typescript']
   });

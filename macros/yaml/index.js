@@ -15,5 +15,5 @@ module.exports.yaml = function ({ node, fileName }) {
     'utf8'
   );
   const doc = yaml.load(ymlFile);
-  return babel.parse(JSON.stringify(doc));
+  return babel.parseExpression(JSON.stringify(doc));
 };
