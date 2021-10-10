@@ -9,6 +9,20 @@ on:
 jobs:
   test:
     runs-on: ubuntu-20.04
+    services:
+      postgres:
+        image: postgres:12.6
+        env:
+          POSTGRES_USER: postgres
+          POSTGRES_PASSWORD: somepassword
+          POSTGRES_DB: todos
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd pg_isready
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
     steps:
     - name: Checkout
       uses: actions/checkout@v2
@@ -27,5 +41,18 @@ jobs:
     - name: Check formatting
       run: yarn format:check
 
-    # - name: Tests
-    #   run: yarn test
+    - name: Install PostgreSQL client
+      run: sudo apt-get install --yes postgresql-client
+
+    - name: Create database tables
+      run: psql -f ./database/init.sql
+      env:
+        PGHOST: localhost
+        PGUSER: postgres
+        PGPASSWORD: somepassword
+        PGDATABASE: todos
+
+    - name: Build
+      run: yarn build
+      env:
+        DATABASE_URL: postgres://postgres:somepassword@localhost:5432/todos
