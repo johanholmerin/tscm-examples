@@ -29,7 +29,7 @@
     "json-schema-to-typescript": "^10.1.5",
     "pg": "^8.7.1",
     "ts-graphql-plugin": "^2.1.4",
-    "tscm": "git+https://github.com/johanholmerin/tscm#master",
+    "tscm": "^0.1.0",
     "typecheck.macro": "^0.7.2"
   },
   "devDependencies": {

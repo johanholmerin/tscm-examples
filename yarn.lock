@@ -4503,9 +4503,10 @@ ts-parse-database-url@^1.0.3:
   version "0.0.0"
   uid ""
 
-"tscm@git+https://github.com/johanholmerin/tscm#master":
+tscm@^0.1.0:
   version "0.1.0"
-  resolved "git+https://github.com/johanholmerin/tscm#83c7f9c8c83522f8d96018a45cf4c85da3d65f86"
+  resolved "https://registry.yarnpkg.com/tscm/-/tscm-0.1.0.tgz#f6203747037987a26f6668b804f1f4797195947b"
+  integrity sha512-WKY26utaxegJuO+xcbia+boiezLwLln34tHCDsE2gj6tXiZ8MoEFygdZhEpppa6Jj3kR4f+GuPOTxYiGzxiSZQ==
   dependencies:
     "@babel/generator" "^7.15.4"
     "@babel/parser" "^7.15.4"
