@@ -4,5 +4,6 @@ module.exports = {
   ...require('./macros/json-schema'),
   ...require('./macros/pgtyped'),
   ...require('./macros/typecheck'),
-  ...require('./macros/yaml')
+  ...require('./macros/yaml'),
+  ...require('./macros/scrap')
 };

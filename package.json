@@ -20,6 +20,7 @@
     "@graphql-typed-document-node/core": "^3.1.0",
     "@pgtyped/cli": "^0.12.0",
     "@pgtyped/query": "^0.12.0",
+    "@scrap-js/scrap": "^1.1.0",
     "ajv": "^8.6.3",
     "babel-plugin-macros": "^3.1.0",
     "do-sync": "^3.0.12",
@@ -29,11 +30,14 @@
     "json-schema-to-typescript": "^10.1.5",
     "pg": "^8.7.1",
     "ts-graphql-plugin": "^2.1.4",
-    "tscm": "^0.1.0",
+    "tscm": "^0.1.2",
     "typecheck.macro": "^0.7.2"
   },
   "devDependencies": {
     "@apollo/client": "^3.4.16",
+    "@babel/core": "^7.16.0",
+    "@babel/plugin-transform-modules-commonjs": "^7.16.0",
+    "@babel/register": "^7.16.0",
     "@types/pg": "^8.6.1",
     "@types/react": "^17.0.27",
     "eslint": "^7.32.0",
