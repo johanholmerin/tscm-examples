@@ -1,4 +1,4 @@
-# const-json
+# json-schema
 
 Creates validator and TypeScript interface from JSON Schema.
 
