@@ -2,6 +2,8 @@
 
 Type-safe Postgres queries in TypeScript using [pgtyped](https://github.com/adelsz/pgtyped).
 
+https://user-images.githubusercontent.com/7433263/150874144-6a3e663b-52db-4c5e-ad7d-6a37946bf8f0.mp4
+
 ## Example
 
 ### Config
