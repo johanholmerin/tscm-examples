@@ -1,3 +1,9 @@
+# Deprecated
+
+Since TypeScript 5 this project is no longer supported
+
+---
+
 # tscm example macros
 
 A collection of macros for [tscm](https://github.com/johanholmerin/tscm). Intended as demonstration of tscm, **not production ready**. If you are interested in contributing to a macro, feel free to open an issue.
